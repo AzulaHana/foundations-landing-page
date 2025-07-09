@@ -67,11 +67,12 @@ img {
     gap: 15px;
     color: #1f2937;
     text-align: center;
+    padding: 5px 150px;
 }
 
 .icon-box {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border-style: solid;
     border-radius: 10px;
     border-color: #3882f6;
@@ -82,10 +83,6 @@ img {
     color: #1f2937;
     font-style: italic;
     font-weight: lighter;
-}
-
-.section-3 > p {
-    color: #1f2937;
 }
 
 button {
@@ -104,6 +101,15 @@ ul {
     font-size: 18px;
     display: flex;
     gap: 35px;
+}
+
+.section-3 > div {
+    padding: 0px 150px;
+    flex: 1 auto;
+    display: flex;
+    align-items: center;
+    color: #1f2937;
+    flex-direction: column;
 }
 
 .cta-box {
